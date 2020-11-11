@@ -18,6 +18,45 @@ body {
 }
 
 
+/* Estilos de la barra de navegación */
+
+html {
+    scroll-behavior: smooth;
+}
+
+ul {
+    font-size: 20px;
+    list-style-type: none;
+    margin: 0;
+    padding: 5px 20%;
+    overflow: hidden;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    transition: 0.8s;
+}
+
+li {
+    float: left;
+    width: 25%;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not {
+    /* Tengo puesto :not para que no se ejecute, si quiero que funcione quitar el :not (pero queda feo) */
+    color: white;
+    background-color: black;
+}
+
+
 /* Style the header */
 
 .header {

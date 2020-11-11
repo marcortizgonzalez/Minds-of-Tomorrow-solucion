@@ -147,4 +147,10 @@ li a:hover:not {
     .four-column {
         width: 50%;
     }
+    li a {
+        font-size: 14px;
+    }
+    ul {
+        padding: 0px;
+    }
 }
